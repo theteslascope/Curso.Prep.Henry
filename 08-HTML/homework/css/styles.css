@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://st4.depositphotos.com/8005734/23647/i/450/depositphotos_236476702-stock-photo-slices-pizza-prosciutto-rocket-salad.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+h1 {
+    color: red;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: rgba(70, 97, 66, 0.582);
+    padding: 50px;
+    border: 1px;
+    border-color: rgb(12, 12, 12);
+    border-style: solid;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+
+a img {
+    width: 100px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+img {
+    width: 400px;
+}
