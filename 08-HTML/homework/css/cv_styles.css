@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*list-style: none;*/
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*General*/
+
+h3 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+
+/* Perfil*/
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    text-align: center;
+    color: aliceblue;
+    background-color: #210c40;
+    padding: 20px;
+    border: #0d0d0e solid 2px;
+}
+
+.lateral div {
+    margin-top: 5%;
+}
+
+#foto {
+    padding: 20px;
+    border-radius: 50%;
+    width: 250px;
+}
+
+.foto {
+    height: 20%;
+}
+
+.nombre {
+    height: 20%;
+}
+
+.nombre p {
+    font-size: 20px;
+    color: rgba(6, 252, 219, 0.993);
+}
+
+.perfil {
+    height: 25%;
+}
+
+.contacto {
+    height: 15%;
+}
+
+.contacto ul {
+    list-style: none;
+    text-align: left;
+}
+
+.redes a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.redes a:hover {
+    opacity: 0.5;
+}
+
+
+/* Formación*/
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding: 20px;
+    border: #0d0d0e solid 2px;
+}
+
+#curso {
+    list-style: none;
+}
+
+#none li {
+    list-style: none;
+}
+
+#curso {
+    font-weight: bold;
+}
+
+#curso li {
+    font-weight: normal;
+}
+
+
+/*Skills*/
+
+.skills ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#white {
+    color: rgb(240, 247, 244);
+}
+
+#color {
+    color: rgb(12, 216, 148);
+}
+
+#no-color {
+    color: rgb(154, 160, 158);
+}
+
+
+/*Experiencia Laboral*/
+
+.trabajos ul li {
+    list-style: none;
+}
+
+#job {
+    font-weight: bold;
+}
+
+#job li {
+    font-weight: normal;
+}
+
+
+/*Hobbies*/
+
+.hobbies ul {
+    list-style: square;
+}
